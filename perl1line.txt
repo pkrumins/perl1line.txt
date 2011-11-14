@@ -69,6 +69,9 @@ perl -00pe0
 # Compress/expand all blank lines into N consecutive ones
 perl -00 -pe '$_.="\n"x4'
 
+# Fold a file so that every set of 10 lines becomes one tab-separated line: 
+perl -lpe '$\ = $. % 10 ? "\t" : "\n"'
+
 
 LINE NUMBERING
 --------------
