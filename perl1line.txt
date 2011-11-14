@@ -31,6 +31,7 @@ Table of contents:
     5. Text Conversion and Substitution
     6. Selective Printing and Deleting of Certain Lines    
     7. Handy Regular Expressions
+    8. Perl tricks
 
 
 FILE SPACING 
@@ -519,6 +520,14 @@ $html =~ s|<(/)?b>|<$1strong>|g
 
 # Extract all matches from a regular expression
 my @matches = $text =~ /regex/g;
+
+
+PERL TRICKS
+-----------
+
+# Print the version of a Perl module
+perl -MModule -le 'print $Module::VERSION'
+perl -MLWP::UserAgent -le 'print $LWP::UserAgent::VERSION'
 
 
 PERL ONE-LINERS EXPLAINED E-BOOK
