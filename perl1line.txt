@@ -561,7 +561,7 @@ CREDITS
 -------
 
 Andy Lester       http://www.petdance.com
-Shlomi Fish       http://www.shlomifish.com
+Shlomi Fish       http://www.shlomifish.org
 Madars Virza      http://www.madars.org
 
 
