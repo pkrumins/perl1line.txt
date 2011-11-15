@@ -1,4 +1,4 @@
-Useful One-Line Scripts for Perl                    Nov 14 2011 | version 1.01
+Useful One-Line Scripts for Perl                    Nov 14 2011 | version 1.02
 --------------------------------                    -----------   ------------
 
 Compiled by Peteris Krumins (peter@catonmat.net, @pkrumins on Twitter)
@@ -69,7 +69,7 @@ perl -00pe0
 # Compress/expand all blank lines into N consecutive ones
 perl -00 -pe '$_.="\n"x4'
 
-# Fold a file so that every set of 10 lines becomes one tab-separated line: 
+# Fold a file so that every set of 10 lines becomes one tab-separated line
 perl -lpe '$\ = $. % 10 ? "\t" : "\n"'
 
 
