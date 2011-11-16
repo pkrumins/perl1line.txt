@@ -106,19 +106,23 @@ perl -le 'print $n=()=<>'
 perl -le 'print scalar(()=<>)'
 perl -le 'print scalar(@foo=<>)'
 perl -ne '}{print $.'
+perl -nE '}{say $.'
 
 # Print the number of non-empty lines in a file
 perl -le 'print scalar(grep{/./}<>)'
 perl -le 'print ~~grep{/./}<>'
 perl -le 'print~~grep/./,<>'
+perl -E 'say~~grep/./,<>'
 
 # Print the number of empty lines in a file
 perl -lne '$a++ if /^$/; END {print $a+0}'
 perl -le 'print scalar(grep{/^$/}<>)'
 perl -le 'print ~~grep{/^$/}<>'
+perl -E 'say~~grep{/^$/}<>'
 
 # Print the number of lines in a file that match a pattern (emulate grep -c)
 perl -lne '$a++ if /regex/; END {print $a+0}'
+perl -nE '$a++ if /regex/; END {say $a+0}'
 
 
 CALCULATIONS
