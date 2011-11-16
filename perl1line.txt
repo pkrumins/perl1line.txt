@@ -199,6 +199,10 @@ perl -MPOSIX -le '@now = localtime; $now[3] -= 1; print scalar localtime mktime 
 # Print date 14 months, 9 days and 7 seconds ago
 perl -MPOSIX -le '@now = localtime; $now[0] -= 7; $now[4] -= 14; $now[7] -= 9; print scalar localtime mktime @now'
 
+# Prepend timestamps to stdout (GMT, localtime)
+tail -f logfile | perl -ne 'print scalar gmtime," ",$_'
+tail -f logfile | perl -ne 'print scalar localtime," ",$_'
+
 # Calculate factorial of 5
 perl -MMath::BigInt -le 'print Math::BigInt->new(5)->bfac()'
 perl -le '$f = 1; $f *= $_ for 1..5; print $f'
