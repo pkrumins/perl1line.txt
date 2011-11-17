@@ -12,6 +12,11 @@ This file is also available in other languages:
     (None at the moment.)
     Please email me peter@catonmat.net if you wish to translate it.
 
+Perl One-Liners on Github:
+    https://github.com/pkrumins/perl1line.txt
+    You can send me pull requests over GitHub! I accept bug fixes,
+    new one-liners, translations and everything else related.
+
 I am also writing "Perl One-Liners Explained" ebook that's based on
 this file. It explains all the one-liners here. Get it soon at:
 
