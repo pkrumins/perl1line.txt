@@ -309,7 +309,7 @@ perl -le '@array = ("a".."z"); print scalar @array'
 perl -le '@array = ("a".."z"); print $#array + 1'
 
 
-TEXT CONVERSION AND SUBSTITUTION
+CONVERSIONS AND SUBSTITUTIONS
 --------------------------------
 
 # ROT13 a string
@@ -386,6 +386,9 @@ perl -pe 's/foo/bar/g'
 
 # Substitute (find and replace) "foo" with "bar" on lines that match "baz"
 perl -pe '/baz/ && s/foo/bar/'
+
+# Binary patch a file (find and replace a given array of bytes as hex numbers)
+perl -pi -e 's/\x89\xD8\x48\x8B/\x90\x90\x48\x8B/g' file
 
 
 SELECTIVE PRINTING AND DELETING OF CERTAIN LINES
