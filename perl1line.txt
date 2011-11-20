@@ -496,7 +496,7 @@ if ($ip =~ /^($ip_part\.){3}$ip_part$/) {
 }
 
 # Check if the string looks like an email address
-/.+@.+\..+/
+/\S+@\S+\.\S+/
 
 # Check if the string is a decimal number
 /^\d+$/
