@@ -309,7 +309,7 @@ perl -le '@array = ("a".."z"); print scalar @array'
 perl -le '@array = ("a".."z"); print $#array + 1'
 
 
-CONVERSIONS AND SUBSTITUTIONS
+TEXT CONVERSION AND SUBSTITUTION
 --------------------------------
 
 # ROT13 a string
