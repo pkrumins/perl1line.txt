@@ -1,4 +1,4 @@
-Useful One-Line Scripts for Perl                    Nov 21 2011 | version 1.05
+Useful One-Line Scripts for Perl                    Dec 01 2011 | version 1.06
 --------------------------------                    -----------   ------------
 
 Compiled by Peteris Krumins (peter@catonmat.net, @pkrumins on Twitter)
@@ -582,6 +582,7 @@ Shlomi Fish       http://www.shlomifish.org
 Madars Virza      http://www.madars.org
 caffecaldo        https://github.com/caffecaldo
 Kirk Kimmel       https://github.com/kimmel
+avar              https://github.com/avar
 
 
 FOUND A BUG? HAVE ANOTHER ONE-LINER?
