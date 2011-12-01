@@ -400,6 +400,7 @@ perl -ne 'print; exit'
 # Print the first 10 lines of a file (emulate head -10)
 perl -ne 'print if $. <= 10'
 perl -ne '$. <= 10 && print'
+perl -ne 'print if 1..10'
 
 # Print the last line of a file (emulate tail -1)
 perl -ne '$last = $_; END { print $last }'
