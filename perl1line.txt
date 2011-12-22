@@ -1,4 +1,4 @@
-Useful One-Line Scripts for Perl                    Dec 01 2011 | version 1.06
+Useful One-Line Scripts for Perl                    Dec 22 2011 | version 1.07
 --------------------------------                    -----------   ------------
 
 Compiled by Peteris Krumins (peter@catonmat.net, @pkrumins on Twitter)
@@ -482,6 +482,9 @@ perl -ne 'print if ++$a{$_} == 2'
 # Print all unique lines
 perl -ne 'print unless $a{$_}++'
 
+# Print the first field (word) of every line (emulate cut -f 1 -d ' ')
+perl -alne 'print $F[0]'
+
 
 HANDY REGULAR EXPRESSIONS
 -------------------------
@@ -583,6 +586,7 @@ Madars Virza      http://www.madars.org
 caffecaldo        https://github.com/caffecaldo
 Kirk Kimmel       https://github.com/kimmel
 avar              https://github.com/avar
+rent0n
 
 
 FOUND A BUG? HAVE ANOTHER ONE-LINER?
