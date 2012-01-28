@@ -1,4 +1,4 @@
-Useful One-Line Scripts for Perl                    Dec 22 2011 | version 1.07
+Useful One-Line Scripts for Perl                    Jan 28 2012 | version 1.08
 --------------------------------                    -----------   ------------
 
 Compiled by Peteris Krumins (peter@catonmat.net, @pkrumins on Twitter)
@@ -13,12 +13,14 @@ This file is also available in other languages:
     Please email me peter@catonmat.net if you wish to translate it.
 
 Perl One-Liners on Github:
+ 
     https://github.com/pkrumins/perl1line.txt
+
     You can send me pull requests over GitHub! I accept bug fixes,
     new one-liners, translations and everything else related.
 
-I am also writing "Perl One-Liners Explained" ebook that's based on
-this file. It explains all the one-liners here. Get it soon at:
+I have also written "Perl One-Liners Explained" ebook that's based on
+this file. It explains all the one-liners here. Get it at:
 
     http://www.catonmat.net/blog/perl-book/
 
@@ -556,15 +558,16 @@ perl -MLWP::UserAgent -le 'print $LWP::UserAgent::VERSION'
 PERL ONE-LINERS EXPLAINED E-BOOK
 --------------------------------
 
-I am writing an ebook based on the one-liners in this file. If you wish to
+I have written an ebook based on the one-liners in this file. If you wish to
 support my work and learn more about these one-liners, you can get a copy
-of my ebook soon at:
+of my ebook at:
 
     http://www.catonmat.net/blog/perl-book/
 
 The ebook is based on the 7-part article series that I wrote on my blog.
-In the ebook I reviewed all the one-liners, improved explanations and added
-new ones.
+In the ebook I reviewed all the one-liners, improved explanations, added
+new ones, and added two new chapters - introduction to Perl one-liners
+and summary of commonly used special variables.
 
 You can read the original article series here:
 
