@@ -1,4 +1,4 @@
-Useful One-Line Scripts for Perl                    Jan 28 2012 | version 1.08
+Useful One-Line Scripts for Perl                    Mar 15 2012 | version 1.09
 --------------------------------                    -----------   ------------
 
 Compiled by Peteris Krumins (peter@catonmat.net, @pkrumins on Twitter)
@@ -9,7 +9,9 @@ Latest version of this file is always at:
     http://www.catonmat.net/download/perl1line.txt
 
 This file is also available in other languages:
-    (None at the moment.)
+
+    Chinese: https://github.com/vinian/perl1line.txt
+
     Please email me peter@catonmat.net if you wish to translate it.
 
 Perl One-Liners on Github:
