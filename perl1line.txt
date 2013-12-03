@@ -1,4 +1,4 @@
-Useful One-Line Scripts for Perl                    Mar 15 2012 | version 1.09
+Useful One-Line Scripts for Perl                    Dec 03 2013 | version 1.10
 --------------------------------                    -----------   ------------
 
 Compiled by Peteris Krumins (peter@catonmat.net, @pkrumins on Twitter)
@@ -26,6 +26,10 @@ this file. It explains all the one-liners here. Get it at:
 
     http://www.catonmat.net/blog/perl-book/
 
+No Starch Press has published "Perl One-Liners" as a real book too:
+
+    http://nostarch.com/perloneliners
+
 These one-liners work both on UNIX systems and Windows. Most likely your
 UNIX system already has Perl. For Windows get the Strawberry Perl at:
 
@@ -51,6 +55,7 @@ perl -pe '$\="\n"'
 perl -pe 'BEGIN { $\="\n" }'
 perl -pe '$_ .= "\n"'
 perl -pe 's/$/\n/'
+perl -nE 'say'
 
 # Double space a file, except the blank lines
 perl -pe '$_ .= "\n" unless /^$/'
