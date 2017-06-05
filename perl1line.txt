@@ -366,7 +366,7 @@ perl -ple 'y/A-Za-z/a-zA-Z/'
 
 # Camel case each line
 perl -ple 's/(\w+)/\u$1/g'
-perl -ple 's/(?<!['])(\w+)/\u\1/g'
+perl -ple 's/(?<![\'])(\w+)/\u\1/g'
 
 # Strip leading whitespace (spaces, tabs) from the beginning of each line
 perl -ple 's/^[ \t]+//'
@@ -477,7 +477,7 @@ perl -ne 'print if /\d/'
 perl -ne 'print if /^\d+$/'
 
 # Print all lines that contain only characters
-perl -ne 'print if /^[[:alpha:]]+$/
+perl -ne 'print if /^[[:alpha:]]+$/'
 
 # Print every second line
 perl -ne 'print if $. % 2'
